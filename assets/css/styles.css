@@ -1,0 +1,37 @@
+ #header{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: large ;  
+    text-align: center; 
+} 
+
+#timer{ font-size: medium; 
+    text-align: center;
+    
+
+} 
+#text1{ font-size: medium;  
+    display: inline-block;
+    text-align: center;
+
+} 
+#buttom{ font-size: smaller;
+font-family: Georgia, 'Times New Roman', Times, serif; 
+display: inline-block; 
+text-align: center;
+}  
+
+#game{border: solid; 
+    background-color: rgb(143, 188, 180);
+text-align: center;
+} 
+
+body{
+    background-image:url("../images/art-deco-3.jpg") ; 
+    
+}
+
+
+
+
+
+
+
