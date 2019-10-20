@@ -8,16 +8,11 @@
     
 
 } 
-.text1{ font-size: medium;   
+#option1,#option2,#option3{ font-size: medium;   
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
+    margin-right: 15px;
     
-
-} 
-#buttom{ font-size: smaller;
-font-family: Georgia, 'Times New Roman', Times, serif; 
-display: inline-block; 
-
 }  
 
 #game{border: solid; 
