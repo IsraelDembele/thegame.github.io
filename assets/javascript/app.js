@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var TimeRemaining;
-    var timeLeft = 20;
+    var timeLeft = 10;
     var correctAnswers = 0;
     var incorrectAnswers = 0;
     var unanswered = 0;
@@ -13,6 +13,7 @@ $(document).ready(function () {
     var option = $(".option");
     var timer = $("#timer");
     var i = 0;
+    var time;
 
     // var question1 ={
     // q1 : "how many countries make up the continent of Africa?", 
@@ -64,14 +65,23 @@ $(document).ready(function () {
     ]
 
     function count(){
-       var time = setInterval(function(){
+       time = setInterval(function(){
             timeLeft = timeLeft - 1;
             timer.html(timeLeft);
-            console.log(timeLeft)
+            console.log(timeLeft);
+            if(timeLeft == 0){
+                i = i +1;
+                unanswered = unanswered + 1;
+
+                timeLeft = 10;
+                if(i < questions.length){
+                    timeLeft = 10;
+                    start();
+                } else{
+                    end();
+                }
+                }
         },1000);
-        if(timeLeft == 0){
-        clearInterval(time);
-        }
     }
 
 
@@ -81,6 +91,7 @@ $(document).ready(function () {
         incorrectAnswers = 0;
         unanswered = 0; 
         i = 0; 
+        clearInterval(time);
     }
 
     function start() {
@@ -89,7 +100,7 @@ $(document).ready(function () {
         option2.html(questions[i].r2);
         option3.html(questions[i].r3);
         timer.html(timeLeft);
-        count();
+
     }
 
     function checker() {
@@ -103,12 +114,15 @@ $(document).ready(function () {
 
 
     start();
+    count();
 
     submit.on('click', function () {
+        option.prop('checked', false);
         checker();
         console.log("correctAnswers: ", correctAnswers, "incorrectAnswers: ",incorrectAnswers);
         i = i + 1;
         if(i < questions.length){
+            timeLeft = 10;
             start();
         } else{
             end();

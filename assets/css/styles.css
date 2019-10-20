@@ -26,7 +26,18 @@
 body{
     background-image:url("../images/art-deco-3.jpg") ;  
     
-    
+} 
+#submit {border: deeppink 1px solid; 
+    padding: 10px; 
+    background-color: deeppink; 
+    width: 200px; 
+    color: white; 
+    margin: 15px 15px 15px 40%; 
+
+}
+
+#submit:hover{
+    cursor: pointer;
 }
 
 
