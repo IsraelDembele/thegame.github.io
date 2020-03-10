@@ -96,7 +96,8 @@ $(document).ready(function () {
     submit.on('click', function () {
         option.prop('checked', false);
         checker();
-        console.log("correctAnswers: ", correctAnswers;  "incorrectAnswers: ",incorrectAnswers);
+        console.log("correctAnswers: correctAnswers",
+         "incorrectAnswers: incorrectAnswers");
         i = i + 1;
         if(i < questions.length){
             timeLeft = 10;
