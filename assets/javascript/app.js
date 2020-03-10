@@ -19,14 +19,14 @@ $(document).ready(function () {
 
     var questions = [
         {
-            q1: "111how many countries make up the continent of Africa?",
+            q1: "how many countries make up the continent of Africa?",
             r1: "46",
             r2: "54",
             r3: "1",
             correct: "r2"
         },
         {
-            q1: "2222how many tourist destination do we have in BF?",
+            q1: "how many tourist destination do we have in BF?",
             r1: "40",
             r2: "32",
             r3: "12",
