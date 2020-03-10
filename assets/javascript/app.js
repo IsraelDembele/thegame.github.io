@@ -28,9 +28,9 @@ $(document).ready(function () {
         {
             q1: "2222how many tourist destination do we have in BF?",
             r1: "40",
-            r2: "12",
-            r3: "32",
-            correct: "r2"
+            r2: "32",
+            r3: "12",
+            correct: "r3"
         },
         {
             q1: "whish country a have 'la tour Eiffel'?",
