@@ -15,30 +15,7 @@ $(document).ready(function () {
     var i = 0;
     var time;
 
-    // var question1 ={
-    // q1 : "how many countries make up the continent of Africa?", 
-    // r1: "46",
-    // r2: "54", 
-    // r3: "1",
-    // correct: "r2"
-    // }
-
-    // var question2 ={
-    //     q1 : "how many countries make up the continent of Africa?", 
-    //     r1: "46",
-    //     r2: "54", 
-    //     r3: "1",
-    //     correct: "r2"
-    //     }
-
-    //     var question3 ={
-    //         q1 : "how many countries make up the continent of Africa?", 
-    //         r1: "46",
-    //         r2: "54", 
-    //         r3: "1",
-    //         correct: "r2"
-    //         }
-    // var questions = [question1, question2, question3];
+   
 
     var questions = [
         {
@@ -49,18 +26,18 @@ $(document).ready(function () {
             correct: "r2"
         },
         {
-            q1: "2222how many countries make up the continent of Africa?",
-            r1: "46",
-            r2: "54",
-            r3: "1",
+            q1: "2222how many tourist destination do we have in BF?",
+            r1: "40",
+            r2: "12",
+            r3: "32",
             correct: "r2"
         },
         {
-            q1: "33333how many countries make up the continent of Africa?",
-            r1: "46",
-            r2: "54",
-            r3: "1",
-            correct: "r2"
+            q1: "whish country a have 'la tour Eiffel'?",
+            r1: "French",
+            r2: "japan",
+            r3: "chine",
+            correct: "r1"
         }
     ]
 
