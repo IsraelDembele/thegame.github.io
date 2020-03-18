@@ -7,4 +7,4 @@ The player will have a limited time length to finish the game. When the time run
 There will be a counter counting down the remaining time.
 The player should NOT be able to pick more than one answer for each question. 
 
-![](./assets/images/game-image-png)
+![](./assets/images/game-image.png)
