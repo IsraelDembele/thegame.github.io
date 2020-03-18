@@ -1,4 +1,5 @@
- .header{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+ .header{
+     font-family: Georgia, 'Times New Roman', Times, serif; 
     font-size: large ;  
     text-align: center; 
 } 
