@@ -14,8 +14,8 @@ The player should NOT be able to pick more than one answer for each question.
 - bootstrap 
 - jquery 
 
-## how to run 
-- open in default browser 
+## link 
+- https://github.com/israel81boot/TriviaGame
 
 
 ![](./assets/images/game-image.png) 
