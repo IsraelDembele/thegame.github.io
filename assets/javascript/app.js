@@ -26,14 +26,14 @@ $(document).ready(function () {
             correct: "r2"
         },
         {
-            q1: "how many tourist destination do we have in BF?",
+            q1: "how many tourist destinations do we have in BF?",
             r1: "40",
             r2: "32",
             r3: "12",
             correct: "r3"
         },
         {
-            q1: "whish country a have 'la tour Eiffel'?",
+            q1: "whish country have 'la tour Eiffel'?",
             r1: "French",
             r2: "japan",
             r3: "chine",
