@@ -40,9 +40,22 @@ body{
 
 #submit:hover{
     cursor: pointer;
-}
+} 
 
+@media only screen and ( max-width:700px) {
+    #game{
+        min-width: 100%; 
+        
+    } 
 
+} 
+
+@media only screen and ( max-width:500px) {
+    #game{
+        min-width: 50%; 
+    }
+    
+} 
 
 
 
