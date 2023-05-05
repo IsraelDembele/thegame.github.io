@@ -16,7 +16,7 @@ The player should NOT be able to pick more than one answer for each question.
 - jquery 
 
 ## lINK
-- https://github.com/israel81boot/TriviaGame
+ https://israeldembele.github.io/thegame.github.io/
 
 
 ![](./assets/images/2020-04-22.png) 
